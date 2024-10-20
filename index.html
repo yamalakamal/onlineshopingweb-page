@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initai-scale=1.0">
+        <title>simple header</title>
+        <link rel="stylesheet"
+            href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <style>
+                .header-brand-name{
+                                font-weight: bold;
+                                font-size: 25px;
+                            }
+                header{ font-size: 23px;
+                        font-family: sans-serif;
+                        font-style: italic;
+                        padding: 20px;
+                        display: flex;
+                        justify-content: space-around;
+                        background-color:darkcyan;
+                        color: aliceblue;
+                       }
+                nav span
+                {
+                    margin-right: 30px;
+                }
+
+                .header-shortcut-button span
+                 {
+                    margin-left: 20px;
+                }     
+
+
+        article{
+                 background-color: black;
+                 color: aliceblue;
+                 font-size: 18px;
+                 padding: 10px;
+                 text-align: center;
+                }          
+                  .bi-lightning-fill {
+                                     color: gold;
+                                    }
+                                 
+            section {height: 400px;}
+
+            .card {
+            width: 220px;
+            padding: 5px;
+            margin: 10px;
+            box-shadow: 5px 5px 3px gray;
+        }
+        .card-header {
+            height: 160px;
+        }
+        .card-header img {
+            width: 100%;
+            height: 150px;
+        }
+        .card-body {
+            height: 100px;
+            text-align: center;
+        }
+        .card-title {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        .rating {
+            color: goldenrod;
+        }
+        .card-button {
+            width: 100px;
+            height: 30px;
+            font-size: 18px;
+            background-color: darkcyan;
+            color: aliceblue;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            padding: 4px;
+        }
+        .card-footer {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .voting {
+            margin-top: 10px;
+        }
+            footer{background-color: black;
+                padding: 20px;
+                color: aliceblue;
+                display: grid;
+                grid-template-columns: 2.4fr 2.4fr  2.4fr 2.4fr 2.4fr;
+
+            }
+            .footer-title{
+                font-weight: bold;
+                margin-bottom: 20px;
+                font-family: arial;
+                          
+            }
+            .footer-brand-title
+            { font-size: 30px;
+                font-family: Arial;
+                font-weight: bold;
+                margin-bottom: 20px
+            }
+            .footer-title~span{
+                display: block;
+                margin-bottom: 15px;
+            }
+            address span{display: block;
+                         margin-bottom: 15px;
+                         font-family: arial;
+            }
+        .footer-brand-title~div span{
+                                  margin-right:10px;
+                                  font-size: 20px;
+                                }
+
+    </style>
+
+         
+<header>
+    <div>
+        <span class="header-brand-name">KV-Shopee</span>
+    </div>
+    <nav>
+        <div class="header-shortcut-button">
+        <span class="home">Home</span> 
+        <span>catalog</span>
+        <span>Shop</span>
+        <span>Pages</span> 
+        <span>Blog</span> 
+        <span>Docs</span>
+    </div>
+    </nav>
+    <div>
+        <span class="bi bi-search"></span>
+        <span class="bi bi-person"></span>
+        <span class="bi bi-heart"></span>
+        <span class="bi bi-cart3"></span>
+    </div>
+  </header>
+         
+
+          <article>
+            <span class="bi bi-lightning-fill"></span>
+            <span>TODAY SPECIAL DEALS</span>
+            <span class="bi bi-lightning-fill"></span>
+          </article>
+         
+
+          <body>
+            <main>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/suit.jpg" alt="business-outfit">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Business Outfit</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">5000 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/formal.jpg" alt="formal">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Formal Outfit</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">53,000 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/casual.jpg" alt="casual">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Casual Outfit</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">52,000 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/kurthi.jpg" alt="kurthi">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Kurthi Outfit</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">51,000 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/trendy.jpg" alt="trendy">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Trendy Outfit</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">49,000 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Blackshirt.jpg" alt="Blackshirt">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Blackshirt</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">5000 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/White-shirt.jpg" alt="White-shirt">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">White-shirt</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">5200 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Green-shirt.jpg" alt="Green-shirt">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Green-shirt</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">4000 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Darkblue-Shirt.jpg" alt="Darkblue-Shirt">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Darkblue-Shirt</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">5200 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+            
+             
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Pink-shirt.jpg" alt="trendy">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Pink-shirt</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">5300 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Bronze-Shirt.jpg" alt="Bronze-Shirt">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Bronze-Shirt</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">4,000 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Grey-Kurta.jpg" alt="Grey-Kurta">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Grey-Kurta</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">4700 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Black-Hoodie.jpg" alt="Black-Hoodie">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Black-Hoodie</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">4980 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/White-Hoodie.jpg" alt="White-Hoodie">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">White-Hoodie</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">3800 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Stylish-Jeans.jpg" alt="Stylish-Jeans">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Stylish-Jeans</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">4900 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Stylishblue-Jeans.jpg" alt="Stylishblue-Jeans">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Stylishblue-Jeans</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">3000 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Black-Jeans.jpg" alt="Black-Jeans">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Black-Jeans</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">49,000 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Planewhite-Jeans.jpg" alt="Planewhite-Jeans">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Planewhite-Jeans</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">2400 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Planebuiscut-trouser.jpg" alt="Planebuiscut-trouser">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Planebuiscut-trouser</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">6000 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Planegreen-trouser.jpg" alt="Planegreen-trouser">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Planegreen-trouser</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">5000 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Watch.jpg" alt="Watch">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Watch</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">5000 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/Batashoes.jpg" alt="Batashoes">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">Batashoes</div>
+                        <div class="rating">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                        <div class="voting">5000 people voted</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-button">Place Order</div>
+                    </div>
+                </div>
+
+
+
+            </main>
+        </body>
+    
+
+    <footer>
+        <div>
+            <div CLASS="footer-brand-title">KV-Shopee</div>
+            <div><span class="bi bi-facebook"></span>
+                <span class="bi bi-youtube"></span>
+                <span class="bi bi-twitter"></span>
+                <span class="bi bi-instagram"></span>
+                <span class="bi bi-snapchat"></span>
+            </div>
+            
+        </div>
+        <div>
+            <div CLASS="footer-title">SUPPORT</div>
+             <span>Contact us</span>
+             <span>FAQ's</span>
+             <span>Size Guide</span>
+             <span>Shiping & Returns</span>
+        </div>
+        <div>
+            <div CLASS="footer-title">SHOPE</div>
+                <span>Men's Shoping</span>
+                <span>WoMen's Shoping</span>
+                <span>Kids's Shoping</span>
+                <span>Discounts</span>                
+        </div>
+        <div>
+            <div CLASS="footer-title">COMPANY</div>
+                <span>Careers</span>
+                <span>Terms & Conditions</span>
+                <span>Privacy & Cookie Policy</span>              
+        </div>        
+        <div>
+            <div CLASS="footer-title">CONTACT</div>
+            <address>
+            <span>213-2323-555-34</span>
+            <span>215-2123-555-12</span>
+            <span>Help@shopper.com</span>
+            </address>
+        </div>
+
+    </footer>
+
+</html>
+
